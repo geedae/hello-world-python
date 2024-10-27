@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t jade .
+          docker build -t your-dockerhub-geedae/your-image-name:latest .
 
       - name: Push Docker image
         run: |
-          docker push jade
+          docker push your-dockerhub-geedae/your-image-name:latest

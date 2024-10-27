@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-dockerhub-geedae/your-image-name:latest .
+          docker build -t geedae/efe:latest .
 
       - name: Push Docker image
         run: |
-          docker push your-dockerhub-geedae/your-image-name:latest
+          docker push geedae/efe:latest
